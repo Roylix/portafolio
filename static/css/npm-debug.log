@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'css2stylus' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'css2stylus', null ]
+5 verbose cache add name=undefined spec="css2stylus" args=["css2stylus",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'css2stylus',
+6 verbose parsed url   path: 'css2stylus',
+6 verbose parsed url   href: 'css2stylus' }
+7 silly lockFile e7437f6f-css2stylus css2stylus
+8 verbose lock css2stylus /Users/MiMacbook/.npm/e7437f6f-css2stylus.lock
+9 silly lockFile e7437f6f-css2stylus css2stylus
+10 silly lockFile e7437f6f-css2stylus css2stylus
+11 verbose addNamed [ 'css2stylus', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile b0374d1f-css2stylus css2stylus@
+14 verbose lock css2stylus@ /Users/MiMacbook/.npm/b0374d1f-css2stylus.lock
+15 silly addNameRange { name: 'css2stylus', range: '*', hasData: false }
+16 verbose request where is /css2stylus
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id ab153b46d24d0854
+19 verbose url raw /css2stylus
+20 verbose url resolving [ 'https://registry.npmjs.org/', './css2stylus' ]
+21 verbose url resolved https://registry.npmjs.org/css2stylus
+22 verbose request where is https://registry.npmjs.org/css2stylus
+23 info trying registry request attempt 1 at 19:54:43
+24 http GET https://registry.npmjs.org/css2stylus
+25 http 200 https://registry.npmjs.org/css2stylus
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"8PJ5XZ34WVTWM9PL878FI6S0V"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'content-encoding': 'gzip',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'content-length': '3189',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sun, 16 Oct 2016 00:50:49 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-dfw1822-DFW',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1476579048.947359,VS0,VE181',
+26 silly registry.get     vary: 'Accept-Encoding' } ]
+27 silly addNameRange number 2 { name: 'css2stylus', range: '*', hasData: true }
+28 silly addNameRange versions [ 'css2stylus',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.1.4',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.4.0' ] ]
+29 verbose addNamed [ 'css2stylus', '0.4.0' ]
+30 verbose addNamed [ '0.4.0', '0.4.0' ]
+31 silly lockFile cd3f1e2b-css2stylus-0-4-0 css2stylus@0.4.0
+32 verbose lock css2stylus@0.4.0 /Users/MiMacbook/.npm/cd3f1e2b-css2stylus-0-4-0.lock
+33 silly lockFile ac4dc67d--css2stylus-css2stylus-0-4-0-tgz https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz
+34 verbose lock https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz /Users/MiMacbook/.npm/ac4dc67d--css2stylus-css2stylus-0-4-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz',
+35 verbose addRemoteTarball   'e9c8fb5abf4cb88dac7861654a928fc338759447' ]
+36 info retry fetch attempt 1 at 19:54:44
+37 verbose fetch to= /var/folders/v9/wgtbx8cj68l7lj40wgs8h2b80000gn/T/npm-764-J-BlcqSe/registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz
+38 http GET https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz
+39 http 200 https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz
+40 silly lockFile ac4dc67d--css2stylus-css2stylus-0-4-0-tgz https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz
+41 silly lockFile ac4dc67d--css2stylus-css2stylus-0-4-0-tgz https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz
+42 silly lockFile cd3f1e2b-css2stylus-0-4-0 css2stylus@0.4.0
+43 silly lockFile cd3f1e2b-css2stylus-0-4-0 css2stylus@0.4.0
+44 silly lockFile b0374d1f-css2stylus css2stylus@
+45 silly lockFile b0374d1f-css2stylus css2stylus@
+46 silly resolved [ { name: 'css2stylus',
+46 silly resolved     description: 'Converts CSS to Stylus.',
+46 silly resolved     version: '0.4.0',
+46 silly resolved     homepage: 'http://css2stylus.com',
+46 silly resolved     author:
+46 silly resolved      { name: 'Denis Ciccale',
+46 silly resolved        email: 'dciccale@gmail.com',
+46 silly resolved        url: 'http://twitter.com/tdecs' },
+46 silly resolved     contributors: [ [Object], [Object] ],
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git+https://github.com/dciccale/css2stylus.js.git' },
+46 silly resolved     bugs: { url: 'http://github.com/dciccale/css2stylus.js/issues' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     main: './lib/css2stylus',
+46 silly resolved     bin: { css2stylus: './bin/css2stylus' },
+46 silly resolved     scripts: { test: 'xo && ./node_modules/.bin/nodeunit test/*.js' },
+46 silly resolved     preferGlobal: 'true',
+46 silly resolved     dependencies: { yargs: '3.*.*' },
+46 silly resolved     devDependencies: { nodeunit: '^0.9.1', xo: '^0.11.2' },
+46 silly resolved     xo: { space: '2', rules: [Object] },
+46 silly resolved     keywords: [ 'css2stylus', 'css', 'stylus', 'converter' ],
+46 silly resolved     engines: [ 'node >= 0.6.0' ],
+46 silly resolved     gitHead: '34dad813d585becab1eb705d28ef939478eed5fa',
+46 silly resolved     _id: 'css2stylus@0.4.0',
+46 silly resolved     _shasum: 'e9c8fb5abf4cb88dac7861654a928fc338759447',
+46 silly resolved     _from: 'css2stylus@',
+46 silly resolved     _npmVersion: '3.5.2',
+46 silly resolved     _nodeVersion: '5.2.0',
+46 silly resolved     _npmUser: { name: 'denis', email: 'dciccale@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'e9c8fb5abf4cb88dac7861654a928fc338759447',
+46 silly resolved        tarball: 'https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/css2stylus/-/css2stylus-0.4.0.tgz' } ]
+47 info install css2stylus@0.4.0 into /usr/local/lib
+48 info installOne css2stylus@0.4.0
+49 verbose lib/node_modules/css2stylus unbuild
+50 verbose tar unpack /Users/MiMacbook/.npm/css2stylus/0.4.0/package.tgz
+51 silly lockFile 82085019-ocal-lib-node-modules-css2stylus tar:///usr/local/lib/node_modules/css2stylus
+52 verbose lock tar:///usr/local/lib/node_modules/css2stylus /Users/MiMacbook/.npm/82085019-ocal-lib-node-modules-css2stylus.lock
+53 silly lockFile d7e54a60-npm-css2stylus-0-4-0-package-tgz tar:///Users/MiMacbook/.npm/css2stylus/0.4.0/package.tgz
+54 verbose lock tar:///Users/MiMacbook/.npm/css2stylus/0.4.0/package.tgz /Users/MiMacbook/.npm/d7e54a60-npm-css2stylus-0-4-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/css2stylus'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/css2stylus']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/css2stylus',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/css2stylus',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 12.5.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "css2stylus"
+60 error cwd /Users/MiMacbook/GitHub/Curso_HTML5_CSS3_Febrero_2015/portafolio.la/static/css
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/css2stylus
+64 error fstream_path /usr/local/lib/node_modules/css2stylus
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/css2stylus'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]

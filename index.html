@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta author="RPB">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+<!-- 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> -->
+	<title>Portafolio de Rodrigo Paredes</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="static/css/normalize.css">
+	<link rel="stylesheet" href="static/css/estilos.css">
+</head>
+<body>
+	<header id="yo" class="Header">
+		<!-- AREA DEL MENU DENTRO DEL HEADER -->
+		<nav class="MainMenu">
+			<ul class="MainMenu-list">
+				<li class="MainMenu-item"><a class="MainMenu-link" href="#yo">YO</a></li>
+				<li class="MainMenu-item"><a class="MainMenu-link" href="#perfil">Perfil</a></li>
+				<li class="MainMenu-item"><a class="MainMenu-link" href="#trabajo">Trabajo</a></li>
+				<li class="MainMenu-item"><a class="MainMenu-link" href="#contacto">Contacto</a></li> 
+			</ul>
+		</nav>
+		<!-- AREA DEL AVATAR Y Link de Tuiter -->
+		<figure class="Header-imageContainer">
+			<img src="static/images/avatar.jpg" alt="imagen personal" class="Header-image"/>
+			<figcaption class="Header-imageDescription" ><a class="Header-link" href="http://twitter.com/roylix/" target="_blank">@Roylix</a>
+			</figcaption>
+			<p class="Header-name">Rodrigo Paredes</p>
+		</figure>
+	</header>
+
+
+	<!-- AREA DEL PERFIL ++++ PROFILE -->
+	<section id="perfil" class="Profile">
+	<div class="u-containerDefault">
+		<h2 class="Profile-title u-title">Mi Perfil</h2>
+		<p class="Profile-descriptionclass="Profile-link" "><strong>Hola</strong> si <span class="Profile-span">llegaste</span> hasta aca es por que deseas ver mis trabajos, anda <em>checalos</em>!!</p>
+
+		<a class="Profile-link twitter" href="http://twitter.com/roylix/" target="_blank"> @Roylix</a>
+		<a class="Profile-link facebook" href="http://facebook.com/roylix/" target="_blank"> Rodrigo Paredes</a>
+		<a class="Profile-link github" href="http://github.com/roylix/" target="_blank"> Roylix</a>
+	</div>
+	</section>
+	<section class="Slider">
+		<div class="Slider-conteiner">
+			<ul class="rslides">
+			  <li width="1024" height="350"i>
+			  	<img src="static/images/bg_header1.jpg" alt="imagenes de Mis Otros Sitios Webs"title="imagenes de Mis Otros Sitios Webs" width="1024" height="350"/>
+			  </li>
+			  <li>
+			  	<img src="static/images/bextlan1.png" alt="imagenes de Mis Otros Sitios Webs" title="imagenes de Mis Otros Sitios Webs" width="1024" height="350"/>
+			  </li>
+			  <li>
+			  	<img src="static/images/bextlan2.png" alt="imagenes de Mis Otros Sitios Webs" title="imagenes de Mis Otros Sitios Webs" width="1024" height="350"/>
+			  </li>
+			</ul>
+	</section>
+	<!-- AREA DONDE VAN LOS TRABAJOS -->
+	<section id="trabajo" class="Work">
+		<div class="u-containerDefault">
+			<h2 class="Work-title u-title">Mi Trabajo</h2>			
+		</div>
+		<div class="Work-container u-containerDefault">
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/arcade1.jpg" alt="es la descripcion de la imagen">
+					<figcaption class="Work-description">Udilab</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">			
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/platzi_arcade.jpg" alt="es la descripcion de la imagen">
+					<figcaption class="Work-description">Show Paninos</figcaption>
+				</figure>
+			</article>	
+			<article class="Work-item">			
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/logos.jpg" alt="es la descripcion de la imagen">
+					<figcaption class="Work-description">Website de Isotipes</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">			
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/logoshelvetica.jpg" alt="es la descripcion de la imagen">
+					<figcaption class="Work-description">Website de Logotipes</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">			
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/arcade2.jpg" alt="es la descripcion de la imagen">
+					<figcaption class="Work-description">Banners de Arcade</figcaption>
+				</figure>
+			</article class="Work-item">			
+			<article class="Work-item">			
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="static/images/proyecto.jpg" alt="es la descripcion de la imagen">
+					<figcaption class="Work-description">Website de Proyectars</figcaption>
+				</figure>
+			</article class="Work-item">	
+		</div>
+	</section>
+	
+	<footer id="contacto" class="Footer">
+	<div class="Footer-left">
+		<h3 class="Footer-title">Contacto</h3>
+		<p class="Footer-description" >Tienes una sugerencia o quieres  trabajar conmigo ponte en contacto con este formulario</p>
+	</div>
+		<form action="" class="Footer-form">
+			<input class="Footer-formInput" type="text" placeholder="Nombre" /> 
+			<input class="Footer-formInput" type="email" placeholder="Email">
+			<input class="Footer-textarea" type="textarea" placeholder="Motivo">
+			<button class="Footer-button" type="submit">Contactarme</button>
+		</form>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="static/js/vendors/responsiveslides.min.js"></script>
+	<script>
+	  $(function() {
+	    $(".rslides").responsiveSlides({
+	    	pause: true,           // Boolean: Pause on hover, true or false
+	    	pauseControls: true,    // Boolean: Pause when hovering controls, true or 
+	    	});
+	  });
+	</script>
+</body>
+</html>

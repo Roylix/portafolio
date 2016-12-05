@@ -1,0 +1,22 @@
+++++++++++++++++RoylixNotes+++++++++++++++++
+Curso HTML y CSS3 FEBRERO 2015 by Leonidas (portafolio.la Maqueta)
+
+*******************************************************************
+™™Clase Primeros Pasos en la Semantica de HTML5 by @leonidasEsteban
+-- Se crea la estructura de portafolio.la 
+
+<<<<<<< HEAD
+Se termino e proyecto Satisfactoriamente
+=======
+Se han revisado todas las clases de este curso, hasta antes de Pasar el Proyecto a Responsive Web Design
+>>>>>>> origin/master
+
+++++++++++++V.2.0 Pasado a Responsive Web Design++++++++++++++++++
+
+# En mi codigo ajuste un margin en el menu a 1.5 em pa que no se desborde
+-- Para hacer un elemento que ocupe todo el ancho se usa display:block
+
+-- Para hacer que esten en una misma linea y ocupen el ancho de su contenido es display:inline-block
+
+-- Los elementos como a (links) tienen por default display inline
+-- Los elementos input de un formulario son un caso especial que no se adaptan con display: block 
